@@ -12,7 +12,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/loginUser",
+        "https://job-b-dzfw.onrender.com/api/loginUser",
         { email, password }
       );
 

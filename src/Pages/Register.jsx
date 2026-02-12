@@ -14,7 +14,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/saveUser",
+        "https://job-b-dzfw.onrender.com/api/saveUser",
         { name, email, password, role }
       );
 
