@@ -1,0 +1,90 @@
+.register-container {
+  margin-top: 4em;
+  width: 98.5vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #435281, #1c2541);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-box {
+  width: 350px;
+  height: 80vh;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.register-box h2 {
+  margin: 0;
+  margin-bottom: 30px;
+  color: #0b132b;
+}
+
+.register-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.register-box label {
+  text-align: left;
+  font-weight: 500;
+  color: #0b132b;
+}
+
+.register-box input,
+.register-box select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+.register-box input:focus,
+.register-box select:focus {
+  border-color: #00b4d8;
+}
+
+.register-box button {
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00b4d8;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-box button:hover {
+  background-color: #0077b6;
+}
+
+.register-box p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.register-box a {
+  color: #00b4d8;
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .register-box {
+    width: 90%;
+    padding: 30px;
+  }
+}
